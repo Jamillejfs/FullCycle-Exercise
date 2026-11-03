@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "API principal  atualizada!"
+    return "API principal atualizada e funcional!"
 
 
 @app.route("/version")
